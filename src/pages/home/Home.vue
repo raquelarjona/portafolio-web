@@ -40,21 +40,22 @@ import { Button } from '@/components/ui/button'
             Fotografies analógiques
           </p>
 
-          <Button class="bg-[#B65D42] hover:bg-[#914832] text-white rounded-none px-8">
-            OBRIR A L'ARXIU →
-          </Button>
+          <RouterLink to="/galeria">
+           <Button class="bg-[#B65D42] hover:bg-[#914832] text-white rounded-none px-8">
+            OBRIR L'ARXIU →
+            </Button>
+          </RouterLink>
         </div>
 
-        <div class="bg-white p-3 shadow-lg rotate-2">
-          <div class="aspect-4/5 bg-[#E5D8C5] flex items-center justify-center">
-            <p class="text-sm text-[#817563] tracking-widest">
-              TU FOTOGRAFÍA AQUÍ
-            </p>
-          </div>
-          <p class="text-center text-xs text-gray-500 mt-3 mb-1">
-            Un estiu per recordar 
-          </p>
-        </div>
+       <div class="bg-white p-3 shadow-lg rotate-2">
+        <img src="/public/imagenesweb/IMG_0097.jpg"
+        alt="Un record de l'estiu a la platja"
+        class="w-full h-auto object-cover block"/>
+
+  <p class="text-center text-xs text-gray-500 mt-3 mb-1">
+    Un estiu per recordar
+  </p>
+</div> 
 
       </div>
     </section>
