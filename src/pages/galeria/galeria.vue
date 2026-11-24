@@ -58,11 +58,24 @@ const fotografiesFiltrades = () => {
       </h1>
 
       <p class="mt-5 text-gray-600">
-        Un estiu guardat en xicotets fotogrames.
+        Un estiu guardat en fotogrames.
       </p>
     </section>
 
     <section class="pb-20">
+
+      <div class="flex flex-wrap gap-3 mb-10">
+        <button
+          v-for="categoria in categories"
+          :key="categoria"
+          @click="categoriaSeleccionada = categoria"
+          class="px-5 py-2 border border-[#B65D42] text-xs tracking-widest transition"
+          :class="categoriaSeleccionada === categoria
+            ? 'bg-[#B65D42] text-white'
+            : 'text-[#B65D42] hover:bg-[#B65D42]/10'">
+          {{ categoria.toUpperCase() }}
+        </button>
+      </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
       </div>

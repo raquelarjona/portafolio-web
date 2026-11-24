@@ -47,7 +47,7 @@ import { Button } from '@/components/ui/button'
           </RouterLink>
         </div>
 
-       <div class="bg-white p-3 shadow-lg rotate-2">
+       <div class="bg-white p-3 shadow-x1 rotate-2 hover:rotate-0 transition-transform duration-500 max-w-md justify-self-center md:justify-self-end">
         <img src="/public/imagenesweb/IMG_0097.jpg"
         alt="Un record de l'estiu a la platja"
         class="w-full h-auto object-cover block"/>
