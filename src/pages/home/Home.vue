@@ -56,8 +56,17 @@ import { Button } from '@/components/ui/button'
     Un estiu per recordar
   </p>
 </div> 
+  <div class="bg-white p-3 pb-5 w-4/5 shadow-x1 -rotate-6 hover:-rotate-2 transition-transform duration-500 justify-self-center md:justify-self-end">
+    <img
+      src="/public/imagenesweb/d784cf81-cb05-4661-809d-2a294ed61b50.JPG"
+      alt="Un altre record de l'estiu"
+      class="w-full h-auto object-cover block"/>
+    <p class="text-center text-xs text-gray-500 mt-3 mb-1">
+      Un altre moment
+    </p>
+  </div>
+</div>
 
-      </div>
     </section>
     <section class="py-16 border-t border-[#292820]/20">
       <p class="text-xs tracking-[0.3em] text-[#B65D42] mb-4">
