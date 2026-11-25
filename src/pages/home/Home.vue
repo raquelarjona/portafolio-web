@@ -47,7 +47,7 @@ import { Button } from '@/components/ui/button'
           </RouterLink>
         </div>
 
-       <div class="bg-white p-3 shadow-x1 rotate-2 hover:rotate-0 transition-transform duration-500 max-w-md justify-self-center md:justify-self-end">
+       <div class="bg-white p-3 w-4/5 shadow-x1 rotate-2 hover:rotate-0 transition-transform duration-500 max-w-md justify-self-center md:justify-self-end">
         <img src="/public/imagenesweb/IMG_0097.jpg"
         alt="Un record de l'estiu a la platja"
         class="w-full h-auto object-cover block"/>
@@ -71,6 +71,11 @@ import { Button } from '@/components/ui/button'
     <section class="py-16 border-t border-[#292820]/20">
       <p class="text-xs tracking-[0.3em] text-[#B65D42] mb-4">
         01 — ELS MEUS RECORDS
+    <section class="py-16 text-center">
+      <p class="text-3xl md:text-5xl font-serif italic text-[#B65D42]">
+        "Cada foto, un estiu."
+      </p>
+    </section>
       </p>
 
       <h2 class="text-4xl font-serif mb-6">
