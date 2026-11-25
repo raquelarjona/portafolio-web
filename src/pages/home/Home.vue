@@ -48,7 +48,7 @@ import { Button } from '@/components/ui/button'
         </div>
 
        <div class="bg-white p-3 w-4/5 shadow-x1 rotate-2 hover:rotate-0 transition-transform duration-500 max-w-md justify-self-center md:justify-self-end">
-        <img src="/public/imagenesweb/IMG_0097.jpg"
+        <img src="/imagenesweb/IMG_0097.jpg"
         alt="Un record de l'estiu a la platja"
         class="w-full h-auto object-cover block"/>
 
@@ -57,10 +57,10 @@ import { Button } from '@/components/ui/button'
   </p>
 </div> 
   <div class="bg-white p-3 pb-5 w-4/5 shadow-x1 -rotate-6 hover:-rotate-2 transition-transform duration-500 justify-self-center md:justify-self-end">
-    <img
-      src="/public/imagenesweb/d784cf81-cb05-4661-809d-2a294ed61b50.JPG"
-      alt="Un altre record de l'estiu"
-      class="w-full h-auto object-cover block"/>
+<img
+  src="/imagenesweb/IMG_0095.JPG"
+  alt="Un altre record de l'estiu"
+  class="w-full h-auto object-cover block"/>
     <p class="text-center text-xs text-gray-500 mt-3 mb-1">
       Un altre moment
     </p>

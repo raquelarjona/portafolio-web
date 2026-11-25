@@ -13,19 +13,52 @@ const fotografies = [
     titulo: 'Dies de sal',
     categoria: 'Platja',
     fecha: 'JULIOL 2026',
+    src: '/imagenesweb/IMG_0097.jpg',
   },
-  {
+    {
     id: 2,
+    titulo: 'Dies de sal',
+    categoria: 'Platja',
+    fecha: 'JULIOL 2026',
+    src: '/imagenesweb/IMG_0097.jpg',
+  },
+  
+
+  {
+    id: 3,
     titulo: 'Un lloc nou',
     categoria: 'Viatges',
     fecha: 'AGOST 2026',
+    src: '/imagenesweb/IMG_5.JPG',
+  },
+    {
+    id: 4,
+    titulo: 'Última hora de solet',
+    categoria: 'Viatges',
+    fecha: 'AGOST 2026',
+    src: '/imagenesweb/IMG_0095.JPG',
   },
   {
-    id: 3,
+    id: 5,
     titulo: 'Dies sense pressa',
     categoria: 'Amics',
     fecha: 'AGOST 2026',
-  }
+    src: '/imagenesweb/IMG_8175.jpg',
+  },
+   {
+    id: 6,
+    titulo: 'Molta festeta',
+    categoria: 'Amics',
+    fecha: 'AGOST 2026',
+    src: '/imagenesweb/IMG_3.jpg',
+  },
+    {
+    id: 7,
+    titulo: 'Molta molta festeta',
+    categoria: 'Amics',
+    fecha: 'AGOST 2026',
+    src: '/imagenesweb/IMG_9149 2.JPG',
+  },
 ]
 
 const fotografiesFiltrades = () => {
@@ -76,9 +109,18 @@ const fotografiesFiltrades = () => {
           {{ categoria.toUpperCase() }}
         </button>
       </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div
+          v-for="foto in fotografiesFiltrades()" :key="foto.id"
+          class="bg-white p-3 pb-5 shadow-lg">
+          <img :src="foto.src" :alt="foto.titulo" class="w-full block" />
+          <p class="font-serif text-lg mt-3">{{ foto.titulo }}</p>
+          <p class="text-xs tracking-widest text-[#B65D42]">
+            {{ foto.categoria.toUpperCase() }} · {{ foto.fecha }}
+          </p>
+        </div>
       </div>
+    
     </section>
 
   </main>
