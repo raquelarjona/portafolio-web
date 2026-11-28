@@ -15,15 +15,22 @@ const fotografies = [
     fecha: 'JULIOL 2026',
     src: '/imagenesweb/IMG_0097.jpg',
   },
-  {
+    {
     id: 2,
+    titulo: 'Disfrutona',
+    categoria: 'Platja',
+    fecha: 'JULIOL 2026',
+    src: '/imagenesweb/img_67.jpg',
+  },
+  {
+    id: 3,
     titulo: 'Última hora de solet',
     categoria: 'Viatges',
     fecha: 'JULIOL 2026',
     src: '/imagenesweb/IMG_0095.JPG',
   },
     {
-    id: 3,
+    id: 4,
     titulo: 'provant la gastronomía ',
     categoria: 'Viatges',
     fecha: 'JULIOL 2026',
@@ -32,7 +39,7 @@ const fotografies = [
   
   
     {
-    id: 4,
+    id: 5,
     titulo: 'Un lloc nou',
     categoria: 'Viatges',
     fecha: 'AGOST 2026',
@@ -40,7 +47,7 @@ const fotografies = [
   },
 
     {
-    id: 3,
+    id: 6,
     titulo: 'Dies sense pressa',
     categoria: 'Amics',
     fecha: 'JULIOL 2026',
@@ -48,28 +55,28 @@ const fotografies = [
   },
   
   {
-    id: 5,
+    id: 7,
     titulo: 'Molta molta festeta',
     categoria: 'Viatges',
     fecha: 'AGOST 2026',
     src: '/imagenesweb/P1125411.JPG',
   },
      {
-    id: 2,
+    id: 8,
     titulo: 'Una victòria única',
     categoria: 'Amics',
     fecha: 'JULIOL 2026',
     src: '/imagenesweb/IMG_2.JPG',
   },
     {
-    id: 6,
+    id: 9,
     titulo: 'Una nit d´estiu',
     categoria: 'Amics',
     fecha: 'AGOST 2026',
     src: '/imagenesweb/IMG_0262.jpg',
   },
    {
-    id: 8,
+    id: 10,
     titulo: 'Feliz hallowein grupo',
     categoria: 'Amics',
     fecha: 'OCTUBRE 2026',

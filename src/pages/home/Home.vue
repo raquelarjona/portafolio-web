@@ -58,7 +58,7 @@ import { Button } from '@/components/ui/button'
 </div> 
   <div class="bg-white p-3 pb-5 w-4/5 shadow-x1 -rotate-6 hover:-rotate-2 transition-transform duration-500 justify-self-center md:justify-self-end">
 <img
-  src="/imagenesweb/IMG_0095.JPG"
+  src="/imagenesweb/IMG_4.jpg"
   alt="Un altre record de l'estiu"
   class="w-full h-auto object-cover block"/>
     <p class="text-center text-xs text-gray-500 mt-3 mb-1">
@@ -73,13 +73,13 @@ import { Button } from '@/components/ui/button'
         01 — ELS MEUS RECORDS
     <section class="py-16 text-center">
       <p class="text-3xl md:text-5xl font-serif italic text-[#B65D42]">
-        "Cada foto, un estiu."
+        "Cada foto, un record."
       </p>
     </section>
       </p>
 
       <h2 class="text-4xl font-serif mb-6">
-        L' arxiu de l'estiu
+        L' arxiu del meu coret plasmat en fotografíes
       </h2>
 
       <p class="text-gray-600">
