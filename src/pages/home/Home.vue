@@ -22,7 +22,7 @@ import { Button } from '@/components/ui/button'
       </p>
 
       <h1 class="text-5xl md:text-8xl font-serif leading-tight">
-        L'ESTIU
+        ELS RECORDS
         <br />
         que <span class="italic text-[#B65D42]">
         VAIG GUARDAR.</span>
@@ -33,7 +33,7 @@ import { Button } from '@/components/ui/button'
         <div>
           <p class="text-lg leading-relaxed max-w-md">
             Un xicotet arxiu de moments, llocs i persones 
-            que van fer especial el meu estiu
+            que fan especial la meua vida
           </p>
 
           <p class="text-sm text-gray-500 mt-5 mb-8">

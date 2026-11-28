@@ -8,75 +8,85 @@ const categoriaSeleccionada = ref('Totes')
 const categories = ['Totes', 'Platja', 'Viatges', 'Amics']
 
 const fotografies = [
-  {
+
+    {
     id: 1,
+    titulo: 'provant la gastronomía ',
+    categoria: 'Viatges',
+    fecha: 'JUNY 2026',
+    src: '/imagenesweb/IMG_9149 2.JPG',
+  },
+  {
+    id: 2,
     titulo: 'Dies de sal',
     categoria: 'Platja',
     fecha: 'JULIOL 2026',
     src: '/imagenesweb/IMG_0097.jpg',
   },
+      {
+    id: 3,
+    titulo: 'tot el grup',
+    categoria: 'Viatges',
+    fecha: 'JUNY 2026',
+    src: '/imagenesweb/IMG_54.jpg',
+  },
     {
-    id: 2,
+    id: 4,
     titulo: 'Disfrutona',
     categoria: 'Platja',
     fecha: 'JULIOL 2026',
     src: '/imagenesweb/img_67.jpg',
   },
+  
   {
-    id: 3,
+    id: 5,
     titulo: 'Última hora de solet',
     categoria: 'Viatges',
     fecha: 'JULIOL 2026',
     src: '/imagenesweb/IMG_0095.JPG',
   },
-    {
-    id: 4,
-    titulo: 'provant la gastronomía ',
-    categoria: 'Viatges',
-    fecha: 'JULIOL 2026',
-    src: '/imagenesweb/IMG_9149 2.JPG',
-  },
-  
-  
-    {
-    id: 5,
-    titulo: 'Un lloc nou',
-    categoria: 'Viatges',
-    fecha: 'AGOST 2026',
-    src: '/imagenesweb/IMG_5.JPG',
-  },
 
-    {
+      {
     id: 6,
     titulo: 'Dies sense pressa',
     categoria: 'Amics',
     fecha: 'JULIOL 2026',
     src: '/imagenesweb/IMG_8175.jpg',
   },
-  
-  {
+   {
     id: 7,
-    titulo: 'Molta molta festeta',
-    categoria: 'Viatges',
-    fecha: 'AGOST 2026',
-    src: '/imagenesweb/P1125411.JPG',
-  },
-     {
-    id: 8,
     titulo: 'Una victòria única',
     categoria: 'Amics',
     fecha: 'JULIOL 2026',
     src: '/imagenesweb/IMG_2.JPG',
   },
+ 
     {
+    id: 8,
+    titulo: 'Un lloc nou',
+    categoria: 'Viatges',
+    fecha: 'AGOST 2026',
+    src: '/imagenesweb/IMG_5.JPG',
+  },
+
+  
+  {
     id: 9,
+    titulo: 'Molta molta festeta',
+    categoria: 'Viatges',
+    fecha: 'AGOST 2026',
+    src: '/imagenesweb/P1125411.JPG',
+  },
+
+    {
+    id: 10,
     titulo: 'Una nit d´estiu',
     categoria: 'Amics',
     fecha: 'AGOST 2026',
     src: '/imagenesweb/IMG_0262.jpg',
   },
    {
-    id: 10,
+    id: 11,
     titulo: 'Feliz hallowein grupo',
     categoria: 'Amics',
     fecha: 'OCTUBRE 2026',
@@ -115,7 +125,7 @@ const fotografiesFiltrades = () => {
       </h1>
 
       <p class="mt-5 text-gray-600">
-        Un estiu guardat en fotogrames.
+        Un estiu i un poquet mes guardat en fotogrames.
       </p>
     </section>
 
