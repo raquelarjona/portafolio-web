@@ -25,13 +25,20 @@ const fotografies = [
   },
       {
     id: 3,
+    titulo: 'Exploradors',
+    categoria: 'Platja',
+    fecha: 'JULIOL 2026',
+    src: '/imagenesweb/IMG_0325.HEIC',
+  },
+      {
+    id: 4,
     titulo: 'tot el grup',
     categoria: 'Viatges',
     fecha: 'JUNY 2026',
     src: '/imagenesweb/IMG_54.jpg',
   },
     {
-    id: 4,
+    id: 5,
     titulo: 'Disfrutona',
     categoria: 'Platja',
     fecha: 'JULIOL 2026',
@@ -39,7 +46,7 @@ const fotografies = [
   },
   
   {
-    id: 5,
+    id: 6,
     titulo: 'Última hora de solet',
     categoria: 'Viatges',
     fecha: 'JULIOL 2026',
@@ -47,14 +54,14 @@ const fotografies = [
   },
 
       {
-    id: 6,
+    id: 7,
     titulo: 'Dies sense pressa',
     categoria: 'Amics',
     fecha: 'JULIOL 2026',
     src: '/imagenesweb/IMG_8175.jpg',
   },
    {
-    id: 7,
+    id: 8,
     titulo: 'Una victòria única',
     categoria: 'Amics',
     fecha: 'JULIOL 2026',
@@ -62,7 +69,7 @@ const fotografies = [
   },
  
     {
-    id: 8,
+    id: 9,
     titulo: 'Un lloc nou',
     categoria: 'Viatges',
     fecha: 'AGOST 2026',
@@ -71,7 +78,7 @@ const fotografies = [
 
   
   {
-    id: 9,
+    id: 10,
     titulo: 'Molta molta festeta',
     categoria: 'Viatges',
     fecha: 'AGOST 2026',
@@ -79,14 +86,14 @@ const fotografies = [
   },
 
     {
-    id: 10,
+    id: 11,
     titulo: 'Una nit d´estiu',
     categoria: 'Amics',
     fecha: 'AGOST 2026',
     src: '/imagenesweb/IMG_0262.jpg',
   },
    {
-    id: 11,
+    id: 12,
     titulo: 'Feliz hallowein grupo',
     categoria: 'Amics',
     fecha: 'OCTUBRE 2026',

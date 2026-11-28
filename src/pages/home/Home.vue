@@ -12,7 +12,7 @@ import { Button } from '@/components/ui/button'
         ARXIU FOTOGRÀFIC
       </p>
       <p class="text-xs tracking-widest">
-        ESTIU 2026
+        MOMENTS 2026
       </p>
     </header>
 
@@ -47,25 +47,24 @@ import { Button } from '@/components/ui/button'
           </RouterLink>
         </div>
 
-       <div class="bg-white p-3 w-4/5 shadow-x1 rotate-2 hover:rotate-0 transition-transform duration-500 max-w-md justify-self-center md:justify-self-end">
-        <img src="/imagenesweb/IMG_0097.jpg"
-        alt="Un record de l'estiu a la platja"
-        class="w-full h-auto object-cover block"/>
+       <div class="bg-white p-3 w-4/5 shadow-x1 rotate-2 hover:rotate-0 transition-transform duration-500  justify-self-center md:justify-self-end">
+          <img src="/imagenesweb/IMG_0097.jpg"
+          alt="Un record de l'estiu a la platja"
+          class="w-full h-auto object-cover block"/>
+          <p class="text-center text-xs text-gray-500 mt-3 mb-1">
+           Un estiu per recordar
+          </p>
+        </div> 
 
-  <p class="text-center text-xs text-gray-500 mt-3 mb-1">
-    Un estiu per recordar
-  </p>
-</div> 
-  <div class="bg-white p-3 pb-5 w-4/5 shadow-x1 -rotate-6 hover:-rotate-2 transition-transform duration-500 justify-self-center md:justify-self-end">
-<img
-  src="/imagenesweb/IMG_4.jpg"
-  alt="Un altre record de l'estiu"
-  class="w-full h-auto object-cover block"/>
-    <p class="text-center text-xs text-gray-500 mt-3 mb-1">
-      Un altre moment
-    </p>
-  </div>
-</div>
+        <div class="bg-white p-3 w-4/5 shadow-x1 rotate-6 hover:rotate-2 transition-transform duration-500  justify-self-center md:justify-self-end">
+          <img src="/imagenesweb/IMG_4.jpg"
+          alt="Un altre record de l'estiu"
+          class="w-full h-auto object-cover block"/>
+        <p class="text-center text-xs text-gray-500 mt-3 mb-1">
+            Un altre moment especial
+        </p>
+       </div>
+    </div>
 
     </section>
     <section class="py-16 border-t border-[#292820]/20">
